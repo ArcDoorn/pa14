@@ -1,0 +1,41 @@
+#+Title: Erste Schritte
+
+* Einleitung
+** Organisatorisches
+*** Struktur des Kurses
+- Sa. Vormittags -- Erste Schritte
+  - Einleitung, Motivation und Organisatorisches
+  - Primitive und zusammengesetzte Datenstrukturen
+  - Funktionen und Kontrollstrukturen
+  - Übungen: Unittests zu Datenstrukturen
+
+  Ziel: Wir können einfache Programme schreiben.
+
+- Sa. Nachmittags -- Bibliotheken
+  - Namespaces und Bibliotheksnutzung
+  - Java-Zusammenspiel
+  - Übungen: eine einfache Malbibliothek erstellen
+
+  Ziel: Wir können Bibliotheken nutzen.
+
+- So. Vormittags
+  - Multimethods
+  - Makros
+  - Parallelität
+  - Übung: Ameisensimulation nach Rich Hickey
+  - Ausblicke, Feedback und Organisatorisches
+
+  Ziel: Wir haben mal was von den wichtigen Konzepten gehört.
+*** Ablauf
+- Vortrag nur als Grobvorlage
+- Livedemo
+- Übungen:
+  - Unit-Tests: lein test
+  - zum Teil in den Tests zu lösen
+  - zum Teil in Projektdateien zu lösen
+- Fertige Projekt zum Spicken oder späteren Nachgucken
+- Während ich rede: Gerne mittippen und ausprobieren -> REPL
+** Was ist Clojure
+* Datenstrukturen
+* Funktionen und Kontrollstrukturen
+* Übungen
