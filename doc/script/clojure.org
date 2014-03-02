@@ -1,0 +1,45 @@
+#+Title: Clojure
+
+* Clojure, Lein, REPL
+** TODO Clojure
+- Wann???
+- Programmiersprache von Rick Hickey
+- Lauft auf der JVM als Plattform -- Warum ???
+- Funktionales Lisp
+- Ziel: einfaches Schreiben von parallelisierarem Code
+** TODO Was also ist Lisp?
+- Sehr alte Programmiersprache -- Wann ???
+- Starke Wandlungsfähigkeit -- Warum???
+- Hohes Abstrationsniveau
+- Sehr geeignet zu funktionalem Programmieren
+** TODO Funktionales Programmieren
+** TODO Was ist Leiningen?
+- Build-Tool ähnlich zu Maven
+- Für uns wichtig:
+-- lein repl
+-- lein deps
+-- lein run
+-- lein test
+** TODO Was ist REPL
+- Read Eval Print Loop
+- alte Lisp-Erfindung
+- letztlich ein Interpret
+- gute Emacs-Integration
+- Ausführen und Ändern von Codeteilen
+* Grundlagen
+** Grundtypen
+** Verbundtypen
+** Definitionen
+** Funktionen
+** Higher-Order-Funktionen
+** Kontrollstrukturen
+* Spannenderes
+** Namespaces
+** Recur
+** Multimethods
+** Java-Interop
+** lazy lists
+* Paralleles
+* Makros
+
+* Bibliotheken
