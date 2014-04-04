@@ -36,6 +36,11 @@
 - Fertige Projekt zum Spicken oder späteren Nachgucken
 - Während ich rede: Gerne mittippen und ausprobieren -> REPL
 ** Was ist Clojure
+*** Clojure
+*** Funktionales Programmieren
+*** Lisp
 * Datenstrukturen
+
+
 * Funktionen und Kontrollstrukturen
 * Übungen
