@@ -39,8 +39,25 @@
 *** Clojure
 *** Funktionales Programmieren
 *** Lisp
-* Datenstrukturen
+* Erste Schritte
+** REPL
+** Erste Beispiel
+#+BEGIN_SRC clojure
+(Math/sin 3.14) 
+#+END_SRC
+- Ausdrücke werden evaluiert
+- Funktionsaufrufe als Listen notiert
+- erstes Element: Funktionsname
+- Namespace und Name durch Schrägstrich getrennt
 
+* Datenstrukturen
+** Primitive Datentypen
+#+BEGIN_SRC clojure
+12
+3/7
+
+#+END_SRC
+** Zusammengesetze Daten
 
 * Funktionen und Kontrollstrukturen
 * Übungen
