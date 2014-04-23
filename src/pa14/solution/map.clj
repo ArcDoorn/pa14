@@ -1,13 +1,13 @@
 (ns pa14.solution.map)
 
 (defmacro defmap [name & body]
-  `(defn name (-> {} ~@body)))
+  `(def ~name (-> {} ~@body)))
 
 (defn room [map key text]
   (assoc map key {:desc text, :doors []}))
 
 (defn add-door [room door-key]
-  (let [doors (conj (:doors room) door-key1)]
+  (let [doors (conj (:doors room) door-key)]
     (assoc room :doors doors)))
 
 (defn link [map key1 names1 key2 names2]
@@ -15,8 +15,8 @@
         door-key2 (gensym)
         door1 {:desc "a door", :conter-part door-key2, :target key2}
         door2 {:desc "a door", :conter-part door-key1, :target key1}
-        room1 (add-door (get map key1))
-        room2 (add-door (get map key2))]
+        room1 (add-door (get map key1) names1)
+        room2 (add-door (get map key2) names2)]
     (assoc map
       key1 room1
       key2 room2
